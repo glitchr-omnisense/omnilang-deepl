@@ -1,0 +1,6 @@
+[
+    {"lang": "de", "name": "German", "usable_as_source": true, "usable_as_target": true, "status": "stable", "features": {"formality": {"status": "stable"}, "glossary": {"status": "stable"}, "tag_handling": {"status": "stable"}}},
+    {"lang": "en", "name": "English", "usable_as_source": true, "usable_as_target": false, "status": "stable", "features": {"glossary": {"status": "stable"}, "auto_detection": {"status": "stable"}}},
+    {"lang": "en-GB", "name": "English (British)", "usable_as_source": false, "usable_as_target": true, "status": "stable", "features": {"glossary": {"status": "stable"}}},
+    {"lang": "ja", "name": "Japanese", "usable_as_source": true, "usable_as_target": true, "status": "stable", "features": {"formality": {"status": "stable"}}}
+]

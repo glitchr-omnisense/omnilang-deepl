@@ -1,0 +1,31 @@
+{
+    "$schema": "https://github.com/glitchr-omnisense/contracts/blob/1.x/resources/usage-policy.schema.json",
+    "provider": "deepl",
+    "rateLimits": null,
+    "rights": {
+        "commercial": "allowed",
+        "openSourceRequired": null,
+        "caching": {"permission": "unknown", "maxTtl": null},
+        "storage": "unknown",
+        "redistribution": "unknown",
+        "attribution": {
+            "required": true,
+            "text": "DeepL (deepl.com)",
+            "url": "https://www.deepl.com",
+            "where": ["display"]
+        },
+        "licence": null
+    },
+    "requirements": {
+        "key": true,
+        "userAgent": {"required": false, "pattern": null}
+    },
+    "provenance": {
+        "terms": "https://www.deepl.com/en/pro-license",
+        "policy": "https://developers.deepl.com/docs/resources/usage-limits",
+        "verifiedAt": "2026-11-10",
+        "declaredBy": "maintainer",
+        "contact": null,
+        "notes": "Read on 2026-11-10 (terms 'Last update: August 2026'). Limits: no request rate is published; DeepL answers 429 (wait, then retry: honoured by the guard) and 456 when the plan's character quota is spent (a ProviderException with status 456, never retried). A request holds at most 128 KiB, headers 16 KiB; documents are billed at least 50,000 characters each. Quotas are in characters per plan, which a call count cannot express: a site sets its own call limits (policy). Plans: DeepL API Free and Pro are no longer sold to new accounts; Developer (free of charge), Growth and Enterprise are. Commercial use: allowed under the terms, for the customer's own purposes (§8.1.1), not to build a competing product or API (§8.1.1(f), §8.1.9). Attribution: an application shown to end users must tell them the output is DeepL's, with DeepL's logo or name including its domain (§8.3.3). Data retention: content stored only as technically required (§3.1.2), encrypted for debugging at most 72 hours (§3.1.4), never used to train DeepL's models on paid plans; on DeepL API Developer, DeepL may store content perpetually (§3.3.2) and no personal data may be processed (§8.3.11). Caching and storage of translations: the terms read say nothing, hence unknown."
+    }
+}
