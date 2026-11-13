@@ -13,6 +13,13 @@ the [DeepL API](https://developers.deepl.com).
 
 DeepL has no detection call: a translation without a source language says the one it detected.
 
+```sh
+composer require omnisense/omnilang omnilang/deepl
+```
+
+It needs a DeepL API account and its key (a free key ends in `:fx`). Its tests run on recorded answers and need none; omnilang's README has a first call
+on a recorded client.
+
 ```php
 use Omnilang\Deepl\DeeplFactory;
 use Omnilang\Model\{Formality, TranslationQuery};
